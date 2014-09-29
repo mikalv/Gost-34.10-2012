@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gosthash-1.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/External/gosthash-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
