@@ -7,8 +7,8 @@ Uses Arithmetics over Elliptic points from:
 http://stackoverflow.com/questions/15727147/scalar-multiplication-of-point-over-elliptic-curve
 
 Uses Gost 34.11-94 created by @zinal:
-https://github.com/zinal/gosthas
+https://github.com/zinal/gosthash
 
-hUse for your own sake. 
+Use for your own sake. 
 
 God knows why fails from time to time.TO be investigated.
