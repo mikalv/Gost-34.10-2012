@@ -47,7 +47,7 @@ public class Gost_R34_10_2012 {
             //Step 3 - generate pseudo random k => 0<k<q
             do {
                 k = new BigInteger(q.bitLength(), new Random());
-            } while ((k.compareTo(q) != -1) && (k.compareTo(BigInteger.ZERO) != 1));
+            } while ((k.compareTo(q) != -1) || (k.compareTo(BigInteger.ZERO) != 1));
 
             //k = new BigInteger("53854137677348463731403841147996619241504003434302020712960838528893196233395",10);
 

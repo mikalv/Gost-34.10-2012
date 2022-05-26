@@ -24,7 +24,8 @@ public class Main {
         //Checking signature
         BigInteger xQ = new BigInteger("57520216126176808443631405023338071176630104906313632182896741342206604859403",10);
         BigInteger yQ = new BigInteger("17614944419213781543809391949654080031942662045363639260709847859438286763994",10);
-        ECPoint Q = ECArithmetics.scalmult(Gost_R34_10_2012.getEllipticPointP(), d);
+//        ECPoint Q = ECArithmetics.scalmult(Gost_R34_10_2012.getEllipticPointP(), d);
+        ECPoint Q = new ECPoint(xQ, yQ);
         boolean result = Gost_R34_10_2012.SignCheck(hash,signature,Q);
 
         System.out.println("Signature: " + signature);
