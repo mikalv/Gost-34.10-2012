@@ -10,5 +10,3 @@ Uses Gost 34.11-94 created by @zinal:
 https://github.com/zinal/gosthash
 
 Use for your own sake. 
-
-God knows why fails from time to time.TO be investigated.
